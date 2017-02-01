@@ -146,8 +146,8 @@ function summarizeAndTweet(text, url){
   });
 }
 
-//TWEET EVERY TWO HOURS
+//TWEET EVERY SIX HOURS
 setInterval(function(){ 
   getRandomReview(); 
-}, 1*1000);
+}, 6*60*60*1000);
 
