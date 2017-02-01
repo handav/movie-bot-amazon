@@ -140,7 +140,7 @@ function summarizeAndTweet(text, url){
           }
         });
         summary = summary.join(" ");
-        summary = summary + ": " + url;
+        summary = summary + " from aws: " + url;
         postTweet(summary);
     }
   });
